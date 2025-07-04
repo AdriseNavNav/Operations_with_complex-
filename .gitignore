@@ -1,0 +1,40 @@
+# Archivos y carpetas de compilación
+build/
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Archivos de depuración
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de Windows
+*.db
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de Code Runner (si los usas)
+input
+output
+
+# Archivos de respaldo
+*~
+*.bak
+
+# Archivos de control de versiones conflictivos
+*.orig
+
+# Archivos del compilador mingw generados
+*.gch

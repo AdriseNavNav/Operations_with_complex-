@@ -1,0 +1,56 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+            "type": "shell",
+            "label": "Compilar proyecto",
+            "command": "C:\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-I",
+                "include",
+                "${workspaceFolder}\\src\\*.cpp",
+                "-o",
+                "${workspaceFolder}\\build\\main.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+            },
+            "detail": "Compila todos los archivos .cpp de src y genera main.exe"
+        },
+        {
+            "type": "shell",
+            "label": "Ejecutar programa",
+            "command": "${workspaceFolder}\\build\\main.exe",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "none",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Compilar y ejecutar",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Compilar proyecto",
+                "Ejecutar programa"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+	]
+}
