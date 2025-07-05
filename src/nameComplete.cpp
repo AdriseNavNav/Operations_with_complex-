@@ -1,6 +1,34 @@
+/* Description */
+
+
+
+/* Libraries */
+
 #include <iostream>
 #include <string>
 #include "nameComplete.h"
+
+/* Macros definition */
+
+
+
+/* Global variables */
+
+
+
+/* Constants */
+
+
+
+/* Structs */
+
+
+
+/* Inicialization */
+
+
+
+/* Functions */
 
 std::string nameComplete() {
 
