@@ -32,16 +32,16 @@ g++ -fdiagnostics-color=always -g -I include ./src/*.cpp -o ./build/main.exe
 
 ---
 
-## Enlaces útiles
+## Useful Links
 
-* [Documentación de C++ (cppreference)](https://en.cppreference.com/)
-* [Guía de Git](https://git-scm.com/doc)
+* [C++ Documentation (cppreference)](https://en.cppreference.com/)
+* [Git Guide](https://git-scm.com/doc)
 
 ---
 
-## Licencia
+## License
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
 
