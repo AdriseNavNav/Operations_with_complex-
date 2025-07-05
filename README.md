@@ -28,7 +28,7 @@ g++ -fdiagnostics-color=always -g -I include ./src/*.cpp -o ./build/main.exe
 
 # Run
 ./build/main.exe
-
+```
 
 ---
 
