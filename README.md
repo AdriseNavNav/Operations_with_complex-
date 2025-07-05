@@ -25,7 +25,7 @@ Debes tener instalado **Git**:
 3. Clona el repositorio:
 
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone https://github.com/AdriseNavNav/Plantilla_C-.git
    ```
 4. Entra a la carpeta del proyecto:
 
