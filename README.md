@@ -1,83 +1,34 @@
-# Plantilla C++
+# Operations with Complex Numbers
 
-Este es un proyecto base para trabajar con C++ en Visual Studio Code, con una estructura organizada por carpetas y tareas automatizadas.
+This is a personal C++ project that performs **basic and advanced operations with complex numbers** through a console-based menu.
 
----
+## Features
 
-## Requisitos
-
-1. Tener instalado **MinGW**.
-2. Tener instalado **Visual Studio Code**.
-3. Instalar la extensión **C/C++** para VS Code.
-
----
-
-## Clonar el repositorio
-
-Debes tener instalado **Git**:
-
-1. Abre una terminal (por ejemplo, `cmd`).
-2. Ve a la carpeta donde deseas almacenar tu proyecto:
-
-   ```bash
-   cd "[RUTA_DE_LA_CARPETA]"
-   ```
-3. Clona el repositorio:
-
-   ```bash
-   git clone https://github.com/AdriseNavNav/Plantilla_C-.git
-   ```
-4. Entra a la carpeta del proyecto:
-
-   ```bash
-   cd "Plantilla-C++"
-   ```
-5. Abre Visual Studio Code:
-
-   ```bash
-   code .
-   ```
+- The program currently supports:
+- Addition of complex numbers
+- Subtraction of complex numbers
+- Multiplication of complex numbers
+- Division of complex numbers
+- Complex conjugate
+- Modulus (magnitude)
+- Argument (phase/angle in radians)
+- Polar form conversion
+- Cartesian form conversion
+- Exponentiation of complex numbers (complex base and complex exponent)
 
 ---
 
-## Estructura del proyecto
+## Build and Run
 
-```text
-Plantilla-C++/
-│
-├── include/        # Archivos `.h` (declaraciones)
-├── src/            # Archivos `.cpp` (implementación) y `main.cpp`
-├── build/          # Ejecutables y archivos objeto
-├── libs/           # Librerías de terceros o propias
-├── .vscode/        # Configuración de tareas y depuración
-│   └── tasks.json
-├── README.md       # Este archivo
-└── .gitignore      # Ignora archivos no deseados en Git
-```
+You can compile and execute the program using the following commands:
 
----
+```bash
+# Compile
+g++ -fdiagnostics-color=always -g -I include ./src/*.cpp -o ./build/main.exe
 
-## Compilación y ejecución
+# Run
+./build/main.exe
 
-Para compilar y ejecutar, presiona:
-
-```text
-Ctrl + Shift + B
-```
-
-Esto ejecutará la tarea por defecto (`Compilar y ejecutar`) que:
-
-* Busca los headers en `include/`.
-* Compila todos los `.cpp` de `src/`.
-* Genera el ejecutable `main.exe` en `build/`.
-* Lanza automáticamente `main.exe`.
-
----
-
-## Notas
-
-* El ejecutable final se llama `main.exe` y se encuentra en la carpeta `build/`.
-* Si necesitas agregar dependencias, colócalas en `libs/` y ajusta tus rutas de compilación.
 
 ---
 
