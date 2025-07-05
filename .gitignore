@@ -1,5 +1,4 @@
 # Archivos y carpetas de compilación
-build/
 *.exe
 *.o
 *.obj
@@ -25,7 +24,7 @@ Thumbs.db
 *.userosscache
 *.sln.docstates
 
-# Archivos de Code Runner (si los usas)
+# Archivos de Code Runner
 input
 output
 
